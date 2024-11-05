@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/mNameTxts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/mMaterialLetterIcons"
+            android:padding="5dp"
+            android:text="@string/scientist_s_name1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#009968"
+            tools:ignore="RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/mstarTxts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mNameTxts"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/mMaterialLetterIcons"
+            android:maxLines="3"
+            android:text="@string/scientists_description"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/mdepartTxts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mstarTxts"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/mMaterialLetterIcons"
+            android:maxLines="3"
+            android:text="@string/depart"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/msectiaTxts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mdepartTxts"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:maxLines="3"
+            android:text="@string/sectia"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/mserviciuTxts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/msectiaTxts"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:maxLines="3"
+            android:text="@string/sectia"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/mphoneTxts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mserviciuTxts"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:maxLines="3"
+            android:text="@string/phone"
+            android:autoLink="phone"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/mphonemobileTxts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mphoneTxts"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:maxLines="3"
+            android:text="@string/phonemobile"
+            android:autoLink="phone"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/emailTxts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mphonemobileTxts"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:maxLines="3"
+            android:text="@string/e_mail"
+            android:autoLink="email"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/mdescriptionTxts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emailTxts"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:maxLines="3"
+            android:text="@string/description"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/mformNameTxts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mdescriptionTxts"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:maxLines="3"
+            android:text="@string/formneame"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/mnoticeTxts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mformNameTxts"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+
+            android:maxLines="5"
+            android:text="@string/notice"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"
+            />
+
+        <TextView
+            android:id="@+id/mGalaxyTxts"
+            app:fontPath="fonts/RobotoCondensed-Regular.ttf"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/galaxy"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            tools:ignore="MissingPrefix,RelativeOverlap" />
+
+        <com.github.ivbaranov.mli.MaterialLetterIcon
+            android:id="@+id/mMaterialLetterIcons"
+            android:layout_width="@dimen/list_item_avatar_size"
+            android:layout_height="@dimen/list_item_avatar_size"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="8dp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:visibility="invisible"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Views.ScientistsActivitystr">
+
+<!--    <item-->
+
+<!--        android:id="@+id/action_search_str"-->
+<!--        android:orderInCategory="1"-->
+<!--        myapp:showAsAction="always"-->
+<!--        myapp:actionViewClass="android.widget.SearchView"-->
+<!--        android:title="Searcher"-->
+<!--        android:visibility="invisible"-->
+<!--        />-->
+
+
+<!--    <item-->
+<!--        android:id="@+id/back_str"-->
+<!--        android:title="Back"-->
+
+<!--        app:showAsAction="always" />-->
+
+    <item
+        android:id="@+id/action_new_str"
+        android:visibility="invisible"
+        android:title="@string/despre_aplicatie"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_new_en_str"
+        android:visibility="invisible"
+        android:title="@string/about_application"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_new_ru_str"
+        android:visibility="invisible"
+        android:title="@string/about_application_ru"
+        app:showAsAction="never" />
+
+    <!--    <item-->
+    <!--        android:id="@+id/dgti"-->
+    <!--        android:visibility="invisible"-->
+    <!--        android:title="DGTI"-->
+    <!--        app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/video2_str"
+        android:visibility="invisible"
+        android:title="@string/video_tutorial"
+        app:showAsAction="never" />
+
+</menu>

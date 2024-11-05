@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/mRelativeLayouth_h1h_vw_ro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/aboutUsToolBarn_vw_ro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/mBackArrowh_vw_ro"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_back_arrow"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_toEndOf="@+id/mBackArrowh_vw_ro"
+                    android:text="@string/firme_romania"
+                    android:textColor="@color/white"
+                    android:textSize="21sp" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mRelativeLayouth_h_vw_ro"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/mRelativeLayouth_h1h_vw_ro"
+        android:background="@color/colorPrimary"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mRelativeLayouth_h_vw_ro"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h3_h_vw_ro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/websiteLabel_h_vw_ro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/_1"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/websiteLabel_h_vw_ro"
+
+                        android:text="@string/de_unde_lu_m_datele"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/mRelativeLayouth_h4_h_vw_ro"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/mRelativeLayouth_h3_h_vw_ro"-->
+<!--                    android:background="@drawable/shadow_bottom"-->
+<!--                    tools:ignore="WebViewLayout">-->
+
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/TextView_1"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="10dp"  />-->
+
+
+
+<!--                </RelativeLayout>-->
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayouth_h4_h_vw_ro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mRelativeLayouth_h3_h_vw_ro"
+                    android:background="@drawable/shadow_bottom"
+                    tools:ignore="WebViewLayout">
+
+                    <TextView
+                        android:id="@+id/TextView_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp" />
+
+                    <WebView
+                        android:id="@+id/webView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/TextView_1" />
+                </RelativeLayout>
+
+
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/mRelativeLayouth_h5_h_vw_ro"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/mRelativeLayouth_h4_h_vw_ro"-->
+<!--                    android:background="@drawable/shadow_bottom">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/websiteLabe2_h_vw_ro"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:text="@string/_2"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="10dp"-->
+<!--                        android:layout_toEndOf="@+id/websiteLabe2_h_vw_ro"-->
+
+<!--                        android:text="@string/c_t_de_des_se_actualizeaz_datele"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:textStyle="bold" />-->
+
+
+<!--                </RelativeLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/mRelativeLayouth_h6_h_vw_ro"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/mRelativeLayouth_h5_h_vw_ro"-->
+<!--                    android:background="@drawable/shadow_bottom">-->
+
+
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:layout_marginStart="10dp"-->
+
+<!--                        android:text="@string/datele_despre_companii_sunt_actualizate_pe_portalul_date_gov_md_o_data_pe_saptamana_respectiv_i_in_level_stat_acestea_sunt_re_nnoite_saptamanal" />-->
+<!--                </RelativeLayout>-->
+
+
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/mRelativeLayouth_h7_h_vw_ro"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/mRelativeLayouth_h6_h_vw_ro"-->
+<!--                    android:background="@drawable/shadow_bottom">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/websiteLabe3_h_vw_ro"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:text="@string/_3"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="10dp"-->
+<!--                        android:layout_toEndOf="@+id/websiteLabe3_h_vw_ro"-->
+
+<!--                        android:text="@string/identitatea_administratorilor_i_fondatorilor"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:textStyle="bold" />-->
+
+
+<!--                </RelativeLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/mRelativeLayouth_h8_h_vw_ro"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/mRelativeLayouth_h7_h_vw_ro"-->
+<!--                    android:background="@drawable/shadow_bottom">-->
+
+
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:layout_marginStart="10dp"-->
+
+<!--                        android:text="@string/pe_level_stat_in_compartimentul_a_e_n_r_m_ve_i_g_si_doar_numele_i_prenumele_fondatorilor_i_administratorilor_companiilor_deoarece_n_prezent_nu_sunt_disponibile_alte_informa_ii_n_format_deschis" />-->
+<!--                </RelativeLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/mRelativeLayouth_h9_h_vw_ro"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/mRelativeLayouth_h8_h_vw_ro"-->
+<!--                    android:background="@drawable/shadow_bottom">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/websiteLabe4_h_vw_ro"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:text="@string/_4"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="10dp"-->
+<!--                        android:layout_toEndOf="@+id/websiteLabe4_h_vw_ro"-->
+
+<!--                        android:text="@string/ce_este_cautarea_in_level_stat_in_compartimentul_a_e_n_r_m"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:textStyle="bold" />-->
+
+
+<!--                </RelativeLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/mRelativeLayouth_h10_h_vw_ro"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/mRelativeLayouth_h9_h_vw_ro"-->
+<!--                    android:background="@drawable/shadow_bottom">-->
+
+<!--                    &lt;!&ndash;                    <TextView&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:id="@+id/currentCityLabel_h"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:layout_centerVertical="true"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:text="Division"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:textColor="@android:color/black"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:textStyle="bold" />&ndash;&gt;-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:layout_marginStart="10dp"-->
+
+<!--                        android:text="@string/op_iunea_c_utarea_permite_c_utarea_companiilor_n_baza_mai_multor_c_mpuri_dac_cunoa_te_i_idno_ul_denumirea_numele_fondatorilor_sau_conduc_torilor_localitatea_anul_nregistr_rii_sau_genul_de_activitate_ale_companiei_si_statutul_le_pute_i_introduce_n_motorul_de_c_utare_de_exemplu_daca_cautati_dupa_lichidata_vor_fi_gasite_toate_intreprinderile_care_sunt_lichidate_in_cautare_nu_se_cauta_cu_diacritice" />-->
+<!--                </RelativeLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/mRelativeLayouth_h11_h_ro"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/mRelativeLayouth_h10_h_vw_ro"-->
+<!--                    android:background="@drawable/shadow_bottom">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/websiteLabe5_h_ro"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:text="@string/_5"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="12dp"-->
+<!--                        android:layout_toEndOf="@+id/websiteLabe5_h_ro"-->
+
+<!--                        android:text="@string/cum_se_instaleaza_aplicatia_level_stat"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:textStyle="bold" />-->
+
+
+<!--                </RelativeLayout>-->
+
+
+
+
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/mRelativeLayouth_h12_h_ro"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/mRelativeLayouth_h11_h_ro"-->
+<!--                    android:background="@drawable/shadow_bottom">-->
+
+<!--                    &lt;!&ndash;                    <TextView&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:id="@+id/currentCityLabel_h"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:layout_centerVertical="true"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:text="Division"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:textColor="@android:color/black"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:textStyle="bold" />&ndash;&gt;-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:layout_marginStart="10dp"-->
+
+<!--                        android:text="@string/pentru_a_instala_pe_telefon_android_instaleaz_winrar_pentru_android_apoi_dezinstalezi_precedenta_versiune_daca_exista_si_instalezi_versiunea_actualizata_aplica_ia_functioneaz_dac_este_conexiune_la_internet_func_ioneaz_non_stop" />-->
+<!--                </RelativeLayout>-->
+
+
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/mRelativeLayouth_h13_h_ro"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/mRelativeLayouth_h12_h_ro"-->
+<!--                    android:background="@drawable/shadow_bottom">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/websiteLabe6_h_ro"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:text="@string/_6"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="12dp"-->
+<!--                        android:layout_toEndOf="@+id/websiteLabe6_h_ro"-->
+
+<!--                        android:text="@string/ce_semnifica_butonul_share_in_compartimentul_despre_unitatea_de_drept"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:textStyle="bold" />-->
+
+
+<!--                </RelativeLayout>-->
+
+
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/mRelativeLayouth_h14_h_ro"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/mRelativeLayouth_h13_h_ro"-->
+<!--                    android:background="@drawable/shadow_bottom">-->
+
+<!--                    &lt;!&ndash;                    <TextView&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:id="@+id/currentCityLabel_h"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:layout_centerVertical="true"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:text="Division"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:textColor="@android:color/black"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:textStyle="bold" />&ndash;&gt;-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:layout_marginStart="10dp"-->
+
+<!--                        android:text="@string/in_compartimentul_despre_unitatea_de_drept_a_fost_adaugat_un_buton_share_care_permite_distribiurea_si_salvarea_informatie_deschise_despre_unitatea_de_drept" />-->
+<!--                </RelativeLayout>-->
+
+
+
+
+
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/mRelativeLayouth_h15_h_ro"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/mRelativeLayouth_h14_h_ro"-->
+<!--                    android:background="@drawable/shadow_bottom">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/websiteLabe7_h_ro"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:text="@string/_7"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="12dp"-->
+<!--                        android:layout_toEndOf="@+id/websiteLabe7_h_ro"-->
+
+<!--                        android:text="@string/sa_adaugat_posibilitatea_cautarii_ae_dupa_data_inregistrarii"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:textStyle="bold" />-->
+
+
+<!--                </RelativeLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/mRelativeLayouth_h16_h_ro"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/mRelativeLayouth_h15_h_ro"-->
+<!--                    android:background="@drawable/shadow_bottom">-->
+
+<!--                    &lt;!&ndash;                    <TextView&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:id="@+id/currentCityLabel_h"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:layout_centerVertical="true"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:text="Division"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:textColor="@android:color/black"&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        android:textStyle="bold" />&ndash;&gt;-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:layout_marginStart="10dp"-->
+
+<!--                        android:text="@string/introducem_2020_09_si_vor_fi_gasiti_tot_ae_care_au_fost_inregistrati_in_2020_09_daca_introducem_2020_09_04_vor_fi_gasiti_exact_toti_ae_care_au_fost_inregistrati_in_aceasta_data" />-->
+<!--                </RelativeLayout>-->
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

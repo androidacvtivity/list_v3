@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/mRelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/aboutUsToolBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/mBackArrow"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/todo_about_us"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_back_arrow"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/mBackArrow"
+                    android:text="@string/about_me"
+                    android:textColor="@color/white"
+                    android:textSize="21sp"
+                    android:layout_marginStart="20dp" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/mRelativeLayout1"
+        android:background="@color/colorPrimary">
+
+        <cn.gavinliu.android.lib.shapedimageview.ShapedImageView
+            android:id="@+id/mImageView"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bancu"
+            app:shape_mode="circle"
+            app:stroke_color="@color/darkDeepOrange"
+            app:stroke_width="0dp"
+            android:onClick="onMImageViewClick"
+            />
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mImageView"
+            android:layout_marginTop="13dp"
+            android:text="@string/vitalie_bancu"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:onClick="onMImageViewClick"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameTV"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/software_engineer_n_programmer"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:onClick="onMImageViewClick"
+            />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="90dp"
+            android:layout_toEndOf="@+id/mImageView"
+            android:src="@drawable/ic_call"
+            android:contentDescription="@string/todo"
+            android:onClick="onCallImageViewClick"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toStartOf="@+id/mImageView"
+            android:src="@drawable/ic_email"
+            android:contentDescription="@string/todo"
+            android:onClick="onEmailImageViewClick"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mRelativeLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/mRelativeLayout3"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="@drawable/shadow_bottom">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/addressTV"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:text="@string/administrative_authority"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:layout_marginStart="10dp"-->
+
+<!--                        android:layout_toEndOf="@+id/addressTV"-->
+<!--                        android:text="@string/national_bureau_of_statistics_of_the_republic_of_moldova" />-->
+
+<!--&lt;!&ndash;                    <Button&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:id="@+id/locatebtn"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="70dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_height="30dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_alignParentEnd="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_alignParentRight="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_centerVertical="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginRight="5dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:background="@drawable/locate_btn_background"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:text="LOCATE"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:textColor="@color/white" />&ndash;&gt;-->
+<!--                </RelativeLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/nnt"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/mRelativeLayout3"-->
+<!--                    android:background="@drawable/shadow_bottom">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/currentCityLabel"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:text="@string/division"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:layout_marginStart="10dp"-->
+<!--                        android:layout_toEndOf="@+id/currentCityLabel"-->
+<!--                        android:text="@string/general_division_for_informational_technologies_designing_of_computer_applications_division" />-->
+<!--                </RelativeLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/sds"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+
+<!--                    android:background="@drawable/shadow_bottom">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/contactNoLabel"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:text="@string/mobile_number"-->
+<!--                        android:textColor="@android:color/black"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="10dp"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:layout_toEndOf="@+id/contactNoLabel"-->
+<!--                        android:autoLink="phone"-->
+<!--                        android:text="@string/_37368325707"/>-->
+<!--                </RelativeLayout>-->
+
+                <RelativeLayout
+                    android:id="@+id/sds"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/contactNoLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/mobile_number"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                      <!--Change me text color in red -->
+
+                    <TextView
+                        android:id="@+id/contactNoText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/contactNoLabel"
+                        android:onClick="onCallImageViewClick"
+                        android:text="@string/_37368325707"
+                        android:textColor="#FF0000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/contactNoText"
+                        android:text="-- md" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/phone_ro"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/sds"
+
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/contactNoLabel_ro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/mobile_number"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/contactNoText_ro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/contactNoLabel_ro"
+                        android:onClick="onCallImageViewClick_ro"
+                        android:text="@string/bancusoft_ro"
+                        android:textColor="#FF0000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/contactNoText_ro"
+                        android:text="-- ro" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/phone_ro"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/websiteLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/website"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/websiteLabel"
+                        android:autoLink="all"
+                        android:text="@string/https_bancusoft_com"
+                        android:textColor="@color/colorPrimary" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayout5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayout4"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:autoLink="email"
+                        android:text="@string/address"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/address"
+                        android:text="@string/md_2019_chi_in_u_str_grenoble_106"
+                        android:onClick="openMapsLink"
+                        />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayout6"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayout5"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/emailLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:autoLink="email"
+                        android:text="@string/email"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_toEndOf="@+id/emailLabel"
+                        android:autoLink="email"
+                        android:text="@string/vitalie_bancu_bancusoft_com" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:onClick="onMImageViewClick"
+                    android:id="@+id/mRelativeLayout7"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayout6"
+                    android:background="@drawable/shadow_bottom">
+
+                    <TextView
+                        android:id="@+id/linkedin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+
+                        android:text="@string/linkedin"
+
+                        android:textStyle="bold"
+                        android:textColor="#FF0000"
+                        />
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerInParent="true"-->
+<!--                        android:layout_marginStart="24dp"-->
+<!--                        android:layout_toEndOf="@+id/linkedin"-->
+<!--                        android:text="@string/http_linkedin"-->
+<!--                        android:textColor="#FF0000" />-->
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mRelativeLayout8"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/mRelativeLayout7"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/shadow_bottom"
+                    >
+
+                    <TextView
+                        android:id="@+id/disclaimer_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_centerInParent="true"
+                        android:text="@string/Full_description"
+                        android:textColor="#FF0000"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/m_splash_screen_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Views.SplashActivity">
+
+    <ImageView
+        android:id="@+id/mLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo_bancusoft"
+        tools:ignore="ContentDescription" />
+
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/IDNO_08_08_22"
+        android:textAlignment="center"
+        android:textColor="@color/colorTitleColor"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/seconTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/clasificatoare"
+        android:textAlignment="center"
+        android:textColor="@color/colorTitleColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/subTitle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/direc_ia_proiectare_aplica_ii_informatice"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="@color/colorTitleColor"-->
+<!--        android:textSize="18sp" />-->
+
+</LinearLayout>

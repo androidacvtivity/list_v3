@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".Views.help">
+
+<!--    <item-->
+
+<!--        android:id="@+id/action_search"-->
+<!--        android:orderInCategory="1"-->
+<!--        myapp:showAsAction="always"-->
+<!--        myapp:actionViewClass="android.widget.SearchView"-->
+<!--        android:title="Searcher"-->
+<!--        android:visibility="invisible"-->
+<!--        />-->
+
+    <item
+        android:id="@+id/viewAllMenuItem"
+        android:title="@string/view_all"
+        android:icon="@drawable/m_list"
+        app:showAsAction="ifRoom" />
+
+    <item
+    android:id="@+id/enlang"
+
+    android:title="@string/english_language"
+    app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rolang"
+
+        android:title="@string/romanian_language"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rulang"
+
+        android:title="@string/russian_language"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/link1"
+
+        android:title="@string/video_tutorial" />
+
+
+
+</menu>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Despre Aplicatie"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/section5Content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="@string/section5_content"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/footerTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="date.gov.md"
+                android:textColorLink="#FF0000"
+                android:autoLink="web"
+                android:clickable="true"
+                android:onClick="onLinkClicked"/>
+
+            <TextView
+                android:id="@+id/footerTextView1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:text="date.gov.ro"
+                android:textColorLink="#FF0000"
+                android:autoLink="web"
+                android:clickable="true"
+                android:onClick="onLinkClicked1"/>
+
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/titleTextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abaout App "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/section5Content1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="@string/section4_content"/>
+    </LinearLayout>
+</ScrollView>
+
+

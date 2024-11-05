@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name="com.bancusoft.listv3.App"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_new_icon_men"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_new_icon_men_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:vmSafeMode="true"
+        android:theme="@style/AppTheme"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        tools:targetApi="s">
+
+        <activity android:name="com.bancusoft.listv3.Views.SplashActivity" android:theme="@style/SplashTheme" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.bancusoft.listv3.Views.DashboardActivity" android:theme="@style/HomeTheme" android:exported="true">
+        </activity>
+
+
+        <activity
+            android:name="com.bancusoft.listv3.Views.WebViewActivity_1"
+            android:label="data.gov.ro"
+            android:parentActivityName="com.bancusoft.listv3.Views.help_vw_ro" />
+
+        <activity
+            android:name="com.bancusoft.listv3.Views.med.CL_medicament_Activity"
+            android:label="CLASIF. MEDICAMENT."
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+
+
+        <activity
+            android:name="com.bancusoft.listv3.Views.structbns.Full_description"
+            android:label="Full Description"
+            android:parentActivityName="com.bancusoft.listv3.Views.AboutUsActivity" />
+
+
+        <activity
+            android:name="com.bancusoft.listv3.Views.WebViewActivity"
+            android:label="linkedin - Vitalie Bancu "
+            android:parentActivityName="com.bancusoft.listv3.Views.AboutUsActivity" />
+
+        <activity
+            android:name="com.bancusoft.listv3.Views.ScientistsActivityclprodmold"
+            android:label="Cl. PRODMOLD"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.ScientistsActivityclcfoj"
+            android:label="Cl. CFOJ "
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.ScientistsActivityclcaem2"
+            android:label="Cl. CAEM2 "
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+
+        <activity
+            android:name="com.bancusoft.listv3.Views.ScientistsActivityclcaem"
+            android:label="Cl. CAEM "
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.ScientistsActivityvw_ro"
+            android:label="Firmele din Romania"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.ScientistsActivityvw"
+            android:label="Agentii Economici "
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.ScientistsActivitycu"
+            android:label="AE după CUATM"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.ScientistsActivitycucaem"
+            android:label="AE după CAEM"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.ScientistsActivitycuatm"
+            android:label="Cl. CUATM"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.ScientistsActivitycfp"
+            android:label="AE după CFP"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.ScientistsActivityclcfp"
+            android:label="Cl. CFP"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.ScientistsActivityclcocm"
+            android:label="Cl. COCM"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+        android:name="com.bancusoft.listv3.Views.ScientistsActivityclservicii"
+        android:label="Cl. CSPM"
+        android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.ScientistsActivitycltari"
+            android:label="Cl. tarilor"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+        android:name="com.bancusoft.listv3.Views.DetailActivityclcaem2"
+        android:label="Despre codul  CAEM2 "
+        android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.DetailActivityclcaem"
+            android:label="Despre codul CAEM "
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.DetailActivityvw"
+            android:label="Despre AE "
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.DetailActivityvw_ro"
+            android:label="Despre Firmă "
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.DetailActivitycu"
+            android:label="AE după CUATM "
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.DetailActivitycaem"
+            android:label="AE după CAEM "
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.DetailActivitycuatm"
+            android:label="Despre codul CUATM"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+        android:name="com.bancusoft.listv3.Views.DetailActivitycfp"
+        android:label="AE după CFP "
+        android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.DetailActivityclcfoj"
+            android:label="Despre codul CFOJ"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.DetailActivityclcfp"
+            android:label="Despre codul CFP"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.DetailActivityclcocm"
+            android:label="Despre codul COCM"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.DetailActivityclservicii"
+            android:label="Despre CSPM"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.DetailActivitycltari"
+            android:label="Despre cod"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+        android:name="com.bancusoft.listv3.Views.DetailActivityclprodmold"
+        android:label="Despre cod"
+        android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.med.DetailActivity_cl_med"
+            android:label="Despre medicament"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+        <activity
+            android:name="com.bancusoft.listv3.Views.AboutUsActivity"
+            android:label="About Us "
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.bancusoft.listv3.Views.help_vw"
+            android:label="Help"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.bancusoft.listv3.Views.help_vw_ro"
+            android:label="Help ro"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.bancusoft.listv3.Views.med.help_medicament_2"
+            android:label="Help"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.bancusoft.listv3.Views.med.help_medicament_en"
+            android:label="Help en med"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.bancusoft.listv3.Views.med.help_medicament_ru"
+            android:label="Help ru med"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.bancusoft.listv3.Views.help_vw_en"
+            android:label="Help en"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.bancusoft.listv3.Views.help_vw_ru"
+            android:label="Help ru"
+            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>

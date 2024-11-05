@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/mDEN_COM_VW_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mLIST_COND_VW_Txt"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/mMaterialLetterIcon_vw"
+            android:padding="5dp"
+            android:text="@string/name_of_the_economic_agent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#2E7D32"
+            android:textSize="20sp"
+            tools:ignore="RelativeOverlap" />
+
+        <TextView
+            android:id="@+id/mIDNO_VW_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mDEN_COM_VW_Txt"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/mMaterialLetterIcon_vw"
+            android:maxLines="3"
+            android:textSize="20sp"
+            android:text="@string/idno"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+
+
+
+        <TextView
+            android:id="@+id/mLISTA_FOND_VW_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mDEN_COM_VW_Txt"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="80dp"
+            android:maxLines="20"
+            android:text="@string/lista_fond"
+            android:textSize="20sp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/mADRESA_VW_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mLISTA_FOND_VW_Txt"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:maxLines="3"
+            android:text="@string/adresa"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/mGEN_ACT_NE_LIC_VW_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mADRESA_VW_Txt"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginBottom="10dp"
+
+            android:maxLines="5"
+            android:text="@string/gen_act_ne_lic"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/mSTATUTUL_VW_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mADRESA_VW_Txt"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:maxLines="5"
+            android:text="@string/statutul2"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/mGEN_ACT_LIC_VW_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mADRESA_VW_Txt"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginBottom="10dp"
+
+            android:maxLines="3"
+            android:text="@string/gen_act_lic"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/mDATA_REG_VW_Txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mADRESA_VW_Txt"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:maxLines="3"
+            android:text="@string/data_reg"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/mact_Txtr"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mDATA_REG_VW_Txt"
+
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+
+            android:maxLines="3"
+            android:text="@string/ultima_actualizare"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/mact_Txtl"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mDATA_REG_VW_Txt"
+
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="5dp"
+
+            android:maxLines="3"
+            android:text="@string/ultima_actualizare"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="italic" />
+
+
+
+        <TextView
+            android:id="@+id/mNOTICE_VW_hTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mact_Txtr"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+            android:maxLines="3"
+            android:textSize="20sp"
+            android:text="@string/pentru_vizualizarea_informatiei_complete_despre_ae_accesati_profilul_click_pe_profil"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+
+
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"
+
+            />
+
+
+        <TextView
+            android:id="@+id/mLIST_COND_VW_Txt"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:text="@string/list_cond"
+            android:textColor="#D81B60"
+            android:textStyle="italic"
+            app:fontPath="fonts/RobotoCondensed-Regular.ttf"
+            tools:ignore="MissingPrefix,RelativeOverlap" />
+
+        <com.github.ivbaranov.mli.MaterialLetterIcon
+            android:id="@+id/mMaterialLetterIcon_vw"
+            android:layout_width="@dimen/list_item_avatar_size"
+            android:layout_height="@dimen/list_item_avatar_size"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="8dp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

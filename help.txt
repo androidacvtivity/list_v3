@@ -1,0 +1,5 @@
+1. first run of project.
+
+--------------------
+
+ERROR: C:\Users\VitalieBancu\AndroidStudioProjects\accountant\app\src\main\res\layout\activity_about_us_me.xml:68: AAPT: error: resource drawable/vitaliebancu1 (aka com.bancusoft.accountant:drawable/vitaliebancu1) not found.
