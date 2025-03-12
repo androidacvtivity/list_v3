@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/df86b5c62f004f13d3db41dcff367a74/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/df86b5c62f004f13d3db41dcff367a74/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../Video-Player-App/caches/8.9/transforms/df86b5c62f004f13d3db41dcff367a74/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/res" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/75088063956f2ad8388b5a09b726d74f/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/75088063956f2ad8388b5a09b726d74f/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/75088063956f2ad8388b5a09b726d74f/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../Video-Player-App/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-savedstate/2.6.2/2d3519967d6ad4b68af5219e6a2bf015c1ed6287/lifecycle-viewmodel-savedstate-2.6.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-savedstate/2.6.2/2d3519967d6ad4b68af5219e6a2bf015c1ed6287/lifecycle-viewmodel-savedstate-2.6.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
