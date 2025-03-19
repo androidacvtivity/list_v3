@@ -73,6 +73,8 @@ public class DashboardActivity extends AppCompatActivity {
         layout_view_cl_med = findViewById(R.id.view_list_of_med);
         help_cl_med = findViewById(R.id.help_cl_med);
 
+        /// /////////////////////
+
 
 
 
