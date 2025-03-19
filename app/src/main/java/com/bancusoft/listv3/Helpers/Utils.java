@@ -19,7 +19,6 @@ import com.bancusoft.listv3.Retrofit.Cl_cuatm_all;
 import com.bancusoft.listv3.Retrofit.Cl_medicament;
 import com.bancusoft.listv3.Retrofit.Cl_prodmold;
 import com.bancusoft.listv3.Retrofit.Cl_servicii;
-import com.bancusoft.listv3.Retrofit.Cl_tari;
 import com.bancusoft.listv3.Retrofit.Scientist;
 import com.bancusoft.listv3.Retrofit.Scientistscaem;
 import com.bancusoft.listv3.Retrofit.Scientistscfp;
@@ -163,13 +162,13 @@ public class Utils {
      *  activity
      */
 
-    public static void sendCl_tariToActivity(Context c, Cl_tari cl_tari,
-                                             Class <?> clazz){
-        Intent i=new Intent(c,clazz);
-
-        i.putExtra("SCIENTIST_KEY",  cl_tari);
-        c.startActivity(i);
-    }
+//    public static void sendCl_tariToActivity(Context c, Cl_tari cl_tari,
+//                                             Class <?> clazz){
+//        Intent i=new Intent(c,clazz);
+//
+//        i.putExtra("SCIENTIST_KEY",  cl_tari);
+//        c.startActivity(i);
+//    }
 
     /**
      * This method will allow us send a serialized Cl_tari objec  to a specified
@@ -537,15 +536,15 @@ public class Utils {
     /**
      * This method will allow us receive a serialized Cl_tari, deserialize it and return it,.
      */
-    public  static Cl_tari receiveCl_tari(Intent intent,Context c) {
-        try {
-            return (Cl_tari) intent.getSerializableExtra("SCIENTIST_KEY");
-        }catch (Exception e){
-            e.printStackTrace();
-            show(c," -SCIENTIST ERROR: "+e.getMessage());
-        }
-        return null;
-    }
+//    public  static Cl_tari receiveCl_tari(Intent intent,Context c) {
+//        try {
+//            return (Cl_tari) intent.getSerializableExtra("SCIENTIST_KEY");
+//        }catch (Exception e){
+//            e.printStackTrace();
+//            show(c," -SCIENTIST ERROR: "+e.getMessage());
+//        }
+//        return null;
+//    }
 
     /**
      * This method will allow us receive a serialized Cl_prodmold, deserialize it and return it,.
