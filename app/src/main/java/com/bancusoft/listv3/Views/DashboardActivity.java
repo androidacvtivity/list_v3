@@ -38,7 +38,7 @@ public class DashboardActivity extends AppCompatActivity {
     LinearLayout layout_cl_coco;
     LinearLayout layout_cl_service;
    // LinearLayout layout_cl_taro;
-    LinearLayout layout_cl_prodded;
+   // LinearLayout layout_cl_prodded;
     //LinearLayout layout_view_structure;
     LinearLayout layout_view_cl_med;
     LinearLayout help_cl_med;
@@ -68,7 +68,7 @@ public class DashboardActivity extends AppCompatActivity {
         layout_cl_coco = findViewById(R.id.cl_cocm);
         layout_cl_service = findViewById(R.id.cl_servicii);
       //  layout_cl_taro =   findViewById(R.id.cl_tari);
-        layout_cl_prodded =   findViewById(R.id.cl_prodmild);
+      //  layout_cl_prodded =   findViewById(R.id.cl_prodmild);
      //   layout_view_structure = findViewById(R.id.view_structura);
         layout_view_cl_med = findViewById(R.id.view_list_of_med);
         help_cl_med = findViewById(R.id.help_cl_med);
@@ -87,7 +87,7 @@ help_cl_med.setOnClickListener(v -> Utils.openActivity(DashboardActivity.this, h
 
       //  layout_view_structure.setOnClickListener(v -> Utils.openActivity(DashboardActivity.this,structurabns.class));
 
-        layout_cl_prodded.setOnClickListener(v -> Utils.openActivity(DashboardActivity.this,ScientistsActivityclprodmold.class));
+       // layout_cl_prodded.setOnClickListener(v -> Utils.openActivity(DashboardActivity.this,ScientistsActivityclprodmold.class));
 
 
        // layout_cl_taro.setOnClickListener(v -> Utils.openActivity(DashboardActivity.this,ScientistsActivitycltari.class));
