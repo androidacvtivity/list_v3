@@ -930,42 +930,42 @@
                     android:foreground="?android:attr/selectableItemBackground"
                     android:focusable="true">
 
-                    <LinearLayout
-                        android:id="@+id/cl_prodmild"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:orientation="vertical">
+<!--                    <LinearLayout-->
+<!--                        android:id="@+id/cl_prodmild"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:gravity="center"-->
+<!--                        android:orientation="vertical">-->
 
-                        <ImageView
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:background="@drawable/m_circle_bg_yello"
-                            android:layout_gravity="center_horizontal"
-                            android:padding="10dp"
-                            android:src="@drawable/m_list"
-                            tools:ignore="ContentDescription" />
+<!--                        <ImageView-->
+<!--                            android:layout_width="64dp"-->
+<!--                            android:layout_height="64dp"-->
+<!--                            android:background="@drawable/m_circle_bg_yello"-->
+<!--                            android:layout_gravity="center_horizontal"-->
+<!--                            android:padding="10dp"-->
+<!--                            android:src="@drawable/m_list"-->
+<!--                            tools:ignore="ContentDescription" />-->
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:layout_gravity="center_horizontal"
-                            android:text="PRODMOLD-A"
-                            android:textStyle="bold"
-                            tools:ignore="HardcodedText" />
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginTop="10dp"-->
+<!--                            android:layout_gravity="center_horizontal"-->
+<!--                            android:text="PRODMOLD-A"-->
+<!--                            android:textStyle="bold"-->
+<!--                            tools:ignore="HardcodedText" />-->
 
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:padding="5dp"
-                            android:text=" Clasificatorul Produse si servicii cu caracter industrial"
-                            android:textColor="@android:color/darker_gray"
-                            tools:ignore="HardcodedText" />
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:gravity="center"-->
+<!--                            android:padding="5dp"-->
+<!--                            android:text=" Clasificatorul Produse si servicii cu caracter industrial"-->
+<!--                            android:textColor="@android:color/darker_gray"-->
+<!--                            tools:ignore="HardcodedText" />-->
 
-                    </LinearLayout>
+<!--                    </LinearLayout>-->
 
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
