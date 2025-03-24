@@ -109,10 +109,7 @@
         android:name="com.bancusoft.listv3.Views.ScientistsActivityclservicii"
         android:label="Cl. CSPM"
         android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
-        <activity
-            android:name="com.bancusoft.listv3.Views.ScientistsActivitycltari"
-            android:label="Cl. tarilor"
-            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+
         <activity
         android:name="com.bancusoft.listv3.Views.DetailActivityclcaem2"
         android:label="Despre codul  CAEM2 "
@@ -161,10 +158,7 @@
             android:name="com.bancusoft.listv3.Views.DetailActivityclservicii"
             android:label="Despre CSPM"
             android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
-        <activity
-            android:name="com.bancusoft.listv3.Views.DetailActivitycltari"
-            android:label="Despre cod"
-            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+
         <activity
         android:name="com.bancusoft.listv3.Views.DetailActivityclprodmold"
         android:label="Despre cod"
