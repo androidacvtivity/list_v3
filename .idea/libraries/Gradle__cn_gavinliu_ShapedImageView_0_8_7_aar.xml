@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: cn.gavinliu:ShapedImageView:0.8.7@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/1b7d0483e84ba193b3ef01874742cdd5/transformed/jetified-ShapedImageView-0.8.7/res" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/1b7d0483e84ba193b3ef01874742cdd5/transformed/jetified-ShapedImageView-0.8.7/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/1b7d0483e84ba193b3ef01874742cdd5/transformed/jetified-ShapedImageView-0.8.7/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/69a43919d2d21895c0a856f6dd5e99b8/transformed/jetified-ShapedImageView-0.8.7/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/69a43919d2d21895c0a856f6dd5e99b8/transformed/jetified-ShapedImageView-0.8.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/69a43919d2d21895c0a856f6dd5e99b8/transformed/jetified-ShapedImageView-0.8.7/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

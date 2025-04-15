@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.appcompat:appcompat:1.7.0@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/dc5a2df79503a3caf1dc00ffa15e60d4/transformed/appcompat-1.7.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/183ebbc8ed821348f80a6d36d20b75e3/transformed/appcompat-1.7.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/dc5a2df79503a3caf1dc00ffa15e60d4/transformed/appcompat-1.7.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/dc5a2df79503a3caf1dc00ffa15e60d4/transformed/appcompat-1.7.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/dc5a2df79503a3caf1dc00ffa15e60d4/transformed/appcompat-1.7.0/res" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/183ebbc8ed821348f80a6d36d20b75e3/transformed/appcompat-1.7.0/res" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/183ebbc8ed821348f80a6d36d20b75e3/transformed/appcompat-1.7.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/183ebbc8ed821348f80a6d36d20b75e3/transformed/appcompat-1.7.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

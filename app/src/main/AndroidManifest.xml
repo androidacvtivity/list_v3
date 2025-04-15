@@ -56,10 +56,7 @@
             android:label="linkedin - Vitalie Bancu "
             android:parentActivityName="com.bancusoft.listv3.Views.AboutUsActivity" />
 
-        <activity
-            android:name="com.bancusoft.listv3.Views.ScientistsActivityclprodmold"
-            android:label="Cl. PRODMOLD"
-            android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+
         <activity
             android:name="com.bancusoft.listv3.Views.ScientistsActivityclcfoj"
             android:label="Cl. CFOJ "
@@ -159,10 +156,7 @@
             android:label="Despre CSPM"
             android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
 
-        <activity
-        android:name="com.bancusoft.listv3.Views.DetailActivityclprodmold"
-        android:label="Despre cod"
-        android:parentActivityName="com.bancusoft.listv3.Views.DashboardActivity" />
+
         <activity
             android:name="com.bancusoft.listv3.Views.med.DetailActivity_cl_med"
             android:label="Despre medicament"

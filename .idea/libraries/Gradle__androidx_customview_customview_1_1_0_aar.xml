@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.customview:customview:1.1.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/d5936420b94e05950b7229d30cc4aa9f/transformed/customview-1.1.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/d5936420b94e05950b7229d30cc4aa9f/transformed/customview-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/1a4f71173107c0988f5ce45b33b0ddac/transformed/customview-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/1a4f71173107c0988f5ce45b33b0ddac/transformed/customview-1.1.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/d18dcfcd7f882fdd4813768604e9d385/transformed/interpolator-1.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/d18dcfcd7f882fdd4813768604e9d385/transformed/interpolator-1.0.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/0cc7dfd2c0fcae0982c28937b18f49ab/transformed/interpolator-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/0cc7dfd2c0fcae0982c28937b18f49ab/transformed/interpolator-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

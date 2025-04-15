@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.ivbaranov:materiallettericon:0.2.3@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/1d0bddc08e1483289ac8e92e869134b1/transformed/jetified-materiallettericon-0.2.3/res" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/1d0bddc08e1483289ac8e92e869134b1/transformed/jetified-materiallettericon-0.2.3/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/1d0bddc08e1483289ac8e92e869134b1/transformed/jetified-materiallettericon-0.2.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/3b860bed1bb44f65d93e0622449ee179/transformed/jetified-materiallettericon-0.2.3/res" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/3b860bed1bb44f65d93e0622449ee179/transformed/jetified-materiallettericon-0.2.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/3b860bed1bb44f65d93e0622449ee179/transformed/jetified-materiallettericon-0.2.3/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/modules-2/files-2.1/com.github.ivbaranov/materiallettericon/0.2.3/b1a86cb548d24b66f4b769d89f5bcfb3536a2144/materiallettericon-0.2.3-javadoc.jar!/" />

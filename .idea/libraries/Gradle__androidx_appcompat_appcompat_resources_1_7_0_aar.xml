@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.appcompat:appcompat-resources:1.7.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/c8f7f9eb3b62557ca77f084fca05dffb/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/c8f7f9eb3b62557ca77f084fca05dffb/transformed/jetified-appcompat-resources-1.7.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/c8f7f9eb3b62557ca77f084fca05dffb/transformed/jetified-appcompat-resources-1.7.0/res" />
+      <root url="jar://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/62775f09f78b38b2ea858f8dbdf5251f/transformed/jetified-appcompat-resources-1.7.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/62775f09f78b38b2ea858f8dbdf5251f/transformed/jetified-appcompat-resources-1.7.0/res" />
+      <root url="file://$USER_HOME$/AndroidStudioProjects/Video-Player-App/caches/8.11.1/transforms/62775f09f78b38b2ea858f8dbdf5251f/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
